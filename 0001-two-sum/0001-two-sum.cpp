@@ -8,7 +8,7 @@ public:
             if(hasmpp.find(left)!= hasmpp.end()){
                 return {hasmpp[left],i};
             }
-            hasmpp[nums[i]] = i;
+            hasmpp[nums[i]] = i; //Store index of num in hasmpp [n,i]
         }
         return {};
     }
